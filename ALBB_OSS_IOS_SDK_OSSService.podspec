@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   s.author             = { "jueyingxx" => "327592992@qq.com" }
   # Or just: s.author    = "jueyingxx"
   # s.authors            = { "jueyingxx" => "327592992@qq.com" }
-  # s.social_media_url   = "http://twitter.com/jueyingxx"
+  # s.social_media_url   = "HTTP.p://twitter.com/jueyingxx"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -66,6 +66,7 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios
    s.platform     = :ios, "7.0"
+   inhibit_all_warnings!
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
