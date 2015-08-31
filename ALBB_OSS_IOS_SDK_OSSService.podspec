@@ -134,5 +134,5 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "ALBB_OSS_IOS_SDK"
   s.ios.vendored_frameworks = "ALBB_OSS_IOS_SDK.framework"
-
+  #s.ios.vendored_libraries =  "ALBB_OSS_IOS_SDK.framework"
 end
