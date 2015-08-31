@@ -66,7 +66,6 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios
    s.platform     = :ios, "7.0"
-   inhibit_all_warnings!
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
